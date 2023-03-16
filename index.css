@@ -24,7 +24,7 @@ body {
   border-radius: 10px;
   background-color: #fff;
   text-align: center;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 57px 50px 20px rgb(10 20 30 / 10%);
 }
 
 .container h2 {
@@ -32,6 +32,7 @@ body {
   margin-bottom: 20px;
   color: #333;
 }
+
 
 button {
   margin-top: 20px;
@@ -73,3 +74,28 @@ button#copy-btn:hover {
   background-color: #2380b8;
   cursor: pointer;
 }
+
+div {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+a {
+  display: inline-block; 
+  color: #ff9900;
+  text-decoration: none;
+  border: 2px solid #ff9900;
+  padding: 8px;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: white;
+  background-color: #ff9900;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 5px #ff9900;
+}
+
+
+
